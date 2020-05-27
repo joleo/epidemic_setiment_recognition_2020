@@ -68,12 +68,12 @@ elif flag == 6:
     checkpoint_path = weight_path+ '/chinese_rbtl3_L-3_H-1024_A-16/bert_model.ckpt'
     dict_path =  weight_path+ '/chinese_rbtl3_L-3_H-1024_A-16/vocab.txt'
 elif flag == 7:
-    weight_path = '/data/data01/liyang099/com/multi_setiment_reg/data/pretrain_weight/chinese_wwm_ext_l2_fur/'
+    weight_path = 'data/pretrain_weight/chinese_wwm_ext_l2_fur/'
     config_path = weight_path + 'bert_config.json'
     checkpoint_path = weight_path + 'bert_model.ckpt'
     dict_path = weight_path + 'vocab.txt'
 elif flag == 8:
-    weight_path = '/data/data01/liyang099/com/multi_setiment_reg/data/pretrain_weight/chinese_wwm_ext_l2_fur2/'
+    weight_path = 'data/pretrain_weight/chinese_wwm_ext_l2_fur2/'
     config_path = weight_path + 'bert_config.json'
     checkpoint_path = weight_path + 'bert_model.ckpt'
     dict_path = weight_path + 'vocab.txt'
